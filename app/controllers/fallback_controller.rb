@@ -1,5 +1,6 @@
-class FallbackController < ApplicationController::Base
+class FallbackController < ActionController::Base
+
     def index
-        render file: 'public/index.html'
+      render file: 'public/index.html'
     end
-end
+  end
